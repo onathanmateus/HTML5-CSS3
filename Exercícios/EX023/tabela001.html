@@ -10,18 +10,15 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
+            height: 400px;
             width: 400px; 
             border-collapse: collapse; 
         }
         td{
             padding: 10px;
             border: 1px solid black;
-        }
-        tr.linha{
-            background-color: gray;
-        }
-        td.dado{
-            background-color: yellow;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: top; /*Alinhamento vertical*/
         }
     </style>
 </head>
@@ -35,14 +32,14 @@
                 TABLE DATA= dado da tabela
     -->
     <table>
-        <tr class="linha"> <!--Primeira linha-->
+        <tr> <!--Primeira linha-->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
         <tr> <!--Segunda linha-->
             <td>A2</td>
-            <td class="dado">B2</td>
+            <td>B2</td>
             <td>C2</td>
         </tr>
         <tr> <!--Terceira linha-->
