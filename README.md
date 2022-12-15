@@ -1,2 +1,2 @@
 # HTML5-CSS3
-Here you will find all the pdf material (made available by the teacher Gustavo Guanabara, from the "Video Course" platform) that I use to study as well as some exercises and challenges that I executed myself using HTML5 and CSS3.
+Aqui você encontrará todo o material pdf (disponibilizado pelo professor Gustavo Guanabara, da plataforma "Curso de Vídeo") que utilizo para estudar, assim como alguns exercícios e desafios que eu mesmo executei usando HTML5 e CSS3.
