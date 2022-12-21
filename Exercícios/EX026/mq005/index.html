@@ -12,7 +12,7 @@
 <body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
-        <span id="burguer" class="material-icons" onclick="clickMenu">menu</span>
+        <span id="burguer" class="material-icons" onclick="clickmenu()">menu</span>
         <menu id="itens">
             <ul>
                 <li><a href="">Opção 1</a></li>
@@ -40,7 +40,7 @@
                 itens.style.display = 'none'
             }
         }
-        function clickMenu(){
+        function clickmenu(){
             if (itens.style.display == 'block'){
                 itens.style.display = 'none'
             }
