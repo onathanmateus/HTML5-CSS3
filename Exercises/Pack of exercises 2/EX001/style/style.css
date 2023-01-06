@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.container{
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* column | row-reverse | column-reverse */
+    flex-wrap: nowrap;
+    /* wrap | wrap-reverse */
+    flex-flow: row nowrap;
+
+    justify-content: flex-start;
+    /* flex-end | center | space-around | space-between */
+
+    align-items: stretch;
+    /* flex-star | flex-end | center | baseline */
+}
+
+.item{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+}
