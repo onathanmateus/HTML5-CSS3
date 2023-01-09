@@ -2,19 +2,22 @@
 
 .container{
     background-color: #ccc;
-    height: 200px;
+    height: 500px;
     display: flex;
+    
     flex-direction: row;
     /* column | row-reverse | column-reverse */
-    flex-wrap: nowrap;
+    
+    flex-wrap: wrap;
     /* wrap | wrap-reverse */
-    flex-flow: row nowrap;
-
+    
     justify-content: flex-start;
     /* flex-end | center | space-around | space-between */
 
     align-items: stretch;
     /* flex-star | flex-end | center | baseline */
+
+    align-content: flex-start;
 }
 
 .item{
@@ -22,6 +25,25 @@
     color: #ffffff;
     padding: 20px;
     margin: 5px;
-    width: 200px;
-    height: 50px;
+    height: 30px;
+
+    flex: 1 1 300px;
+    /*
+    O flex é o shortcut de:
+    -flex-grow
+    -flex-shrink
+    -flex-basis
+    */
+}
+.article1{
+
+}
+.article2{
+
+}
+.article3{
+
+}
+.article4{
+
 }
